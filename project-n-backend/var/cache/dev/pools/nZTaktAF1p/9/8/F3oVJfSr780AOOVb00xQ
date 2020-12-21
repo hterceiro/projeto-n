@@ -1,0 +1,3 @@
+<?php //route_name_a834bedcd017ace9c054111cdd527fbb
+
+return [PHP_INT_MAX, 'api_documentos_get_collection'];
