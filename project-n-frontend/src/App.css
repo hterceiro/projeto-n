@@ -1,0 +1,52 @@
+body {
+    padding-top: 20px;
+    background: #ecf0f1;
+}
+
+.list-group-item {
+    border: 0;
+    background: transparent;
+    color: #34495e;
+
+}
+
+@media screen and (min-width: 790px) {
+    .list-group {
+        float: right;
+    }
+}
+
+.list-group-item strong{
+    color: #95a5a6;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form .form-control{
+    border: 0;
+    border-radius: 0;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background: #34495e;
+    font-weight: bold;
+}
+.table thead tr th {
+    border: 0!important;
+}
+
+.table thead  {
+    border: 0!important;
+}
+
+.table {
+    border: 0
+}

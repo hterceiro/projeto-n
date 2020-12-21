@@ -22,10 +22,10 @@ services:
   web:
     container_name: project-n-frontend
     build:
-      context: ./project-n-front
+      context: ./project-n-frontend
       dockerfile: Dockerfile
     volumes:
-      - './project-n-front:/app'
+      - './project-n-frontend:/app'
       - '/app/node_modules'
     ports:
       - '3001:3000'
