@@ -21,10 +21,17 @@ interface IStatus {
     serverBootTime: string;
 }
 
+interface IError {
+    violations: Array<{
+        message: string;
+    }>
+}
+
 function App() {
     const [numero, setNumero] = useState("")
     const [lists, setList] = useState<IList[]>([]);
     const [statusList, setStatusList] = useState<IStatus>();
+    const [violations, setViolations] = useState<IError[]>([])
 
     useEffect(() => {
         api.get("/documentos").then(response => {
@@ -57,8 +64,7 @@ function App() {
                 setNumero("");
             }
         } catch (error) {
-            toast.error("Verifique se seus dados estão corretos");
-            console.log(error)
+            toast.error("Ocorreu um errro iniesperado:" + error.response.data.detail);
         }
     }, [numero]);
 

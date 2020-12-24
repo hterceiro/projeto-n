@@ -6,10 +6,11 @@ use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 use Symfony\Component\Validator\Constraints as Assert;
 use App\Validator as CustomAssert;
+use Doctrine\Bundle\MongoDBBundle\Validator\Constraints\Unique as MongoDBUnique;
 
 /**
  * @ApiResource()
- *
+ * @MongoDBUnique(fields="numero")
  * @ODM\Document
  */
 class Documento
