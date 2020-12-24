@@ -3,9 +3,12 @@ project-n-backend/.env.local
 project-n-backend/.env.local.php
 project-n-backend/.env.*.local
 project-n-backend/public/bundles/
-project-n-backend/var/
+
 project-n-backend/vendor/
 project-n-backend/.env
 project-n-backend/.idea
 project-n-frontend/.idea
 .idea
+
+project-n-backend/!var/cache/.gitkeep
+project-n-backend/!var/logs/.gitkeep
