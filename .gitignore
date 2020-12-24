@@ -10,5 +10,5 @@ project-n-backend/.idea
 project-n-frontend/.idea
 .idea
 
-project-n-backend/!var/cache/.gitkeep
-project-n-backend/!var/logs/.gitkeep
+!project-n-backend/var/cache/.gitkeep
+!project-n-backend/var/logs/.gitkeep
