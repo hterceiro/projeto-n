@@ -3,7 +3,7 @@ project-n-backend/.env.local
 project-n-backend/.env.local.php
 project-n-backend/.env.*.local
 project-n-backend/public/bundles/
-
+project-n-backend/var/
 project-n-backend/vendor/
 project-n-backend/.env
 project-n-backend/.idea
